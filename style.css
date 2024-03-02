@@ -1,18 +1,29 @@
-a {color :brown;}
-h1 {color:crimson;}
+a {
+    color: brown;
+}
+
+h1 {
+    color: crimson;
+}
+
 body {
-    background-color:antiquewhite;
-   }
-   #button {
-    background-color: crimson; /* Adjust color as needed */
-    color: black; /* Text color */
-    border: none; /* Remove border */
-    padding: 10px 20px; /* Adjust padding */
-    font-size: 16px; /* Adjust font size */
-    cursor: pointer; /* Show pointer cursor on hover */
+    background-color: rgb(249, 221, 185);
+}
+
+#button {
+    background-color: crimson;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
     border-radius: 8px;
-  }
-  
-  #button:hover {
-    background-color: cyan; /* Adjust hover color */
-  }
+}
+
+#button:hover {
+    background-color: cyan;
+}
+
+#signature {
+    color: black;
+}
