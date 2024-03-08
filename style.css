@@ -2,13 +2,13 @@ a {
     color: brown;
 }
 
-h1 {
-    color: crimson;
-}
 body{
     background-color: rgb(249, 221, 185);
 }
 
+img{
+    border-radius: 12.5%;
+}
 #button {
     background-color: crimson;
     color: black;
@@ -28,12 +28,13 @@ body{
 }
 
 .title-box{
-    color: maroon;
+    color: crimson;
     background-color: navy;
     justify-content: center;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
 }
+
 .main-body{
     color: maroon;
     justify-content: space-evenly;
@@ -50,8 +51,6 @@ body{
 .photo{
     flex: 1;
 }
-
-
 
 .steps-how-time{
     padding: 10px;
@@ -97,3 +96,37 @@ body{
     flex: 1;
     padding: 10px;
 }
+
+.main-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title{
+    color: crimson;
+    font-size: 30px;
+}
+
+.recipe-list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;
+}
+.recipes{
+    flex: 1;
+}
+
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: flex-end;
+}
+
+.copyright1{
+    flex: 1;
+}
+
