@@ -5,8 +5,7 @@ a {
 h1 {
     color: crimson;
 }
-
-body {
+body{
     background-color: rgb(249, 221, 185);
 }
 
@@ -26,4 +25,75 @@ body {
 
 #signature {
     color: black;
+}
+
+.title-box{
+    color: maroon;
+    background-color: navy;
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+}
+.main-body{
+    color: maroon;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.photo-ingredients{
+    color: inherit;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.photo{
+    flex: 1;
+}
+
+
+
+.steps-how-time{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.ingredients {
+    flex: 1;
+    padding: 10px;
+}
+
+.steps{
+    flex: 1;
+    padding: 10px;
+}
+
+.how{
+    flex: 1;
+    padding: 10px;
+}
+
+.time{
+    flex: 1;
+    padding: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.back-button, .copyright{
+    flex: 1;
+    padding: 10px;
 }
