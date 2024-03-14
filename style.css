@@ -98,7 +98,11 @@ img {
 .photo {
     flex: 1;
     flex-basis: auto;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
 }
+
 
 .steps-how-time {
     padding: 10px;
