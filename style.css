@@ -79,60 +79,71 @@ img {
     justify-content: center;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .main-body {
     color: rgb(150, 2, 32);
     justify-content: space-evenly;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .photo-ingredients {
     color: inherit;
     justify-content: center;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
 .photo {
     flex: 1;
+    flex-basis: auto;
 }
 
 .steps-how-time {
     padding: 10px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     margin-left: 20px;
 }
 
 .ingredients {
     flex: 1;
+    flex-basis: auto;
     padding: 10px;
 }
 
 .steps {
     flex: 1;
+    flex-basis: auto;
     padding: 10px;
 }
 
 .how {
     flex: 1;
+    flex-basis: auto;
     padding: 10px;
 }
 
 .time {
     flex: 1;
+    flex-basis: auto;
     padding: 10px;
 }
 
 .footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px;
 }
 
 .footer-item {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
@@ -141,11 +152,13 @@ img {
 .back-button,
 .copyright {
     flex: 1;
+    flex-basis: auto;
     padding: 10px;
 }
 
 .main-header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -157,6 +170,7 @@ img {
 
 .recipe-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
@@ -165,10 +179,12 @@ img {
 
 .recipes {
     flex: 1;
+    flex-basis: auto;
 }
 
 .main-footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px;
     align-items: flex-end;
@@ -176,4 +192,5 @@ img {
 
 .copyright1 {
     flex: 1;
+    flex-basis: auto;
 }
