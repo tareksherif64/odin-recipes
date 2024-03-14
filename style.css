@@ -9,6 +9,8 @@ body {
 img {
     border: 5px solid black;
     border-radius: 12.5%;
+    max-width: 100%;
+    height: auto;
 }
 
 .btn41-43 {
@@ -27,9 +29,6 @@ img {
     border: 2px solid rgb(255, 255, 255);
     z-index: 1;
     color: white;
-}
-
-.btn-42 {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -67,7 +66,6 @@ img {
 .btn-42:active {
     top: 2px;
 }
-
 
 #signature {
     color: black;
